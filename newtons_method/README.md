@@ -3,6 +3,5 @@
 Implimented recursively in all programs.
 
 
-```math
-x_1 = x_0 - \frac{f(x_0)}{f(x_0)}
-```
+$$x_1 = x_0 - \frac{f(x_0)}{f(x_0)}$$
+###### please add tex support gh
