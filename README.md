@@ -1,8 +1,5 @@
-<h3 align="center">Newtons Method for root-finding</h3>
+## Parva
 
-Implimented recursively in all programs.
+Small snippets of code in various languages demonstrating mathematical formulae or concepts
 
 
-```math
-x_1 = x_0 - \frac{f(x_0)}{f(x_0)}
-```
