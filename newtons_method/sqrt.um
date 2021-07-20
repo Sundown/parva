@@ -1,0 +1,7 @@
+(defun solve (guess x tol)
+  (if (< (math::abs (- x (math::square guess))) tol)
+    guess
+    (solve (/ (+ guess (/ x guess)) 2) x tol)))
+
+(const res (solve 1 math::e 0.000001))
+(print res (math::square res))
